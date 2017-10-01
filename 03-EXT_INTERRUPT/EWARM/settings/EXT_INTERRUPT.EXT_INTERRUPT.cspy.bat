@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program\common\bin\cspybat" -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.general.xcl" --backend -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.driver.xcl" 
+"D:\Program\common\bin\cspybat" -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.general.xcl" --backend -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program\common\bin\cspybat" -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.general.xcl" "--debug_file=%~1" --backend -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.driver.xcl" 
+"D:\Program\common\bin\cspybat" -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.general.xcl" "--debug_file=%~1" --backend -f "D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EWARM\settings\EXT_INTERRUPT.EXT_INTERRUPT.driver.xcl" 
 
 @echo off 
 :end
