@@ -1,0 +1,15 @@
+"D:\Program\arm\bin\armproc.dll" 
+
+"D:\Program\arm\bin\armstlink2.dll" 
+
+"D:\STM32F746NG_DISCOVERY\03-EXT_INTERRUPT\EXT_INTERRUPT\EWARM\EXT_INTERRUPT\Exe\EXT_INTERRUPT.out" 
+
+--plugin "D:\Program\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program\arm\config\debugger\ST\STM32F7xx.dmac" 
+
+--flash_loader "D:\Program\arm\config\flashloader\ST\FlashSTM32F74xxG.board" 
+
+
+
+
